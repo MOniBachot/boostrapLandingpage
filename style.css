@@ -1,0 +1,187 @@
+body {
+    
+        background-image: url(image-backgorund-2.jpg);
+        background-position-y: bottom;
+        background-repeat: no-repeat;
+        height: 100vh;
+        font-family: 'Poppins', Arial, sans-serif;
+}
+
+h2
+{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Poppins";
+    color: #3A453C;
+
+}
+
+h3
+{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+#logo-header 
+{
+    height: 70px;
+
+}
+
+.scroll-container {
+    width: 100%;
+    overflow: hidden;
+    cursor: grab; 
+    position: relative;
+  }
+  
+
+.scroll-content {
+    display: flex;
+    gap: 16px;
+    width: max-content;
+    height: 100%;
+    position: relative;
+    transition: transform 0.1s;
+  }
+
+
+
+.custom-card {
+    width: 211px;
+    height: 255px;
+    background-blend-mode: overlay;
+    background-color:rgba(0, 0, 0, 0.6);
+    background-image: url(background-card.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.custom-card h5 {
+    font-size: 1.2rem;
+    font-family: "Poppins";
+    font-weight: 200;
+    color: #69C4CC;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.custom-card p {
+    font-size: 0.9rem;
+    font-family: "Poppins";
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 0;
+
+}
+
+.custom-card button {
+    width: 135px;
+    height: 41px;
+    background: #ffffff;
+    border-radius: 26px;
+    border: none;
+    padding: 5px 10px;
+    color: #69C4CC;
+    font-weight: 700;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+
+#footer {
+    min-height: 300px;
+}
+
+.form-control  {
+    padding: 15px;
+    height: 60px;
+    font-size: 18px;
+    border-color: none;
+    border-radius: 32px;
+    flex: 1;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    color: #C3CF83;
+    
+}
+
+.form-control::placeholder {
+    color: #C3CF83;
+}
+
+#button-submit {
+    width: 146px;
+    height: 60px;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #41C6CE  ;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#button-contacta {
+    width: fit-content;
+    height: 63px;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 32px;
+    cursor: pointer;
+
+}
+.modal-content {
+    height: 100vh;
+    width: 100%;
+    border: none;
+    background-color:  rgba(0, 0, 0, 0.0);
+}
+.modal-body {
+    overflow-y: auto;
+    width: 100%;
+  }
+
+#contactModal {
+    background-color:  rgba(0, 0, 0, 0.6);
+  }
+
+
+#button-modal {
+    width: 146px;
+    padding: 12px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #41C6CE  ;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+    align-items: center ;
+}
+
+#button-close {
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg"  fill="white" class="bi bi-x" viewBox="0 0 16 16"%3E%3Cpath d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/%3E%3C/svg%3E');
+    box-shadow: none;   
+    background-color: transparent; 
+    font-size: 4rem;
+
+}
+
+.modal-body .form-control::placeholder {
+    color: grey;
+}
